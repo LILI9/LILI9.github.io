@@ -36,12 +36,6 @@ function DayTimer(){
 	setTimeout(function() { DayTimer(), 1000 });  // 1s
 	document.getElementById("timerD").innerHTML = "天";  
 }
-
-/*
-<body style="background-color:#EEEEEE" onLoad="DayTimer()"> 
-<p id="timerD"></p>  
-</body>
-*/
 </script> 
 </head>  
 	<embed src="lovestory.mp3"></embed>
@@ -49,14 +43,19 @@ function DayTimer(){
 	<body>
 		<!--蒲公英-->
     <div class="dandelion">
-        <span class="smalldan">111</span>
-        <span class="bigdan">222</span>
+        <span class="smalldan"></span>
+        <span class="bigdan"></span>
     </div>
      
     <style type="text/css">
 
         @media screen and (max-width:600px){
             .dandelion{display: none !important;}
+        }
+        html {
+        	background-image: url(bgp1.gif);
+        	background-repeat: no-repeat;
+        	background-position: center;
         }
         .dandelion .smalldan {
             width: 36px;
@@ -135,7 +134,7 @@ function DayTimer(){
 
 </body> 
 
-<script src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+<script type="text/javascript" color="255,0,255" pointColor="255,0,0" opacity='0.7' zIndex="-2" count="100" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 </html>
 
   
